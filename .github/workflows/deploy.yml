@@ -1,3 +1,4 @@
+# Workflow
 name: Github Actions 실행시켜보기
 
 on:
@@ -13,3 +14,9 @@ jobs:
     steps:
       - name: Hello Wolrd 출력하기
         run: echo "Hello Wolrd"
+
+      - name: 여러 명령어 문장 작성하기
+        run: |
+          echo "Good"
+          echo "Morning"
+          pwd
